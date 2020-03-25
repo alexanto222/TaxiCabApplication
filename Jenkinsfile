@@ -2,9 +2,9 @@
 properties([
 	parameters([
         string(defaultValue: "master", description: 'Which Git Branch to clone?', name: 'GIT_BRANCH'),
-        string(defaultValue: "1234567", description: 'AWS Account Number?', name: 'ACCOUNT'),
-        string(defaultValue: "taxicab-prod-svc", description: 'Blue Service Name to patch in Prod Environment', name: 'PROD_BLUE_SERVICE'),
-        string(defaultValue: "java-app", description: 'AWS ECR Repository where built docker images will be pushed.', name: 'ECR_REPO_NAME')
+        string(defaultValue: "5022-0762-3589", description: 'AWS Account Number?', name: 'ACCOUNT'),
+        string(defaultValue: " ", description: 'Blue Service Name to patch in Prod Environment', name: 'PROD_BLUE_SERVICE'),
+        string(defaultValue: "terraform-demo", description: 'AWS ECR Repository where built docker images will be pushed.', name: 'ECR_REPO_NAME')
 	])
 ])
 try {
